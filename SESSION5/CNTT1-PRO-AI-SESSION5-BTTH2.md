@@ -20,8 +20,8 @@ Thông tin sản phẩm:
 - Đối tượng hướng tới: Chủ doanh nghiệp vừa và nhỏ (SMEs), Giám đốc vận hành (COO), Trưởng phòng CSKH và Marketing.
 
 Yêu cầu đầu ra (Bắt buộc trình bày theo cấu trúc dưới đây để làm dữ liệu đầu vào cho bước tiếp theo):
-1. **Chân dung khách hàng mục tiêu (Target Audience):** Nêu rõ quy mô doanh nghiệp, vị trí quyết định mua hàng và mục tiêu kinh doanh của họ.
-2. **Danh sách 4 Pain Points chí mạng:** Trình bày dưới dạng danh sách đánh số (1-4). Mỗi điểm gồm: [Tên nỗi đau] + [Mô tả thực trạng gây thất thoát doanh thu/chi phí] + [Cách giải pháp AI Chatbot giải quyết triệt để].
+1. **Chân dung khách hàng mục tiêu (Target Audience):
+2. **Danh sách 4 Pain Points chí mạng:
 3. **Bộ từ khóa SEO mục tiêu:** 1 từ khóa chính và 4 từ khóa phụ liên quan trực tiếp đến giải pháp.
 4. **Định vị giọng điệu (Tone of Voice):** Chuyên nghiệp, tin cậy, sắc bén, hướng tới hiệu quả thực tế (ROI).
 
@@ -37,7 +37,39 @@ Plaintext
 Dựa trên bản phân tích khách hàng mục tiêu, 4 Pain Points và bộ từ khóa SEO đã được xác định ở [Kết quả Bước 1] dưới đây:
 
 """
-[DÁN TOÀN BỘ KẾT QUẢ CỦA PROMPT 1 VÀO ĐÂY]
+[Chân dung khách hàng mục tiêu (Target Audience):
+
+Quy mô doanh nghiệp: Doanh nghiệp vừa và nhỏ (SMEs) hoạt động trong lĩnh vực thương mại điện tử, bán lẻ, giáo dục, dịch vụ tài chính hoặc bất động sản, có quy mô nhân sự từ 10 - 150 nhân viên. Lượng tương tác và tin nhắn từ khách hàng đổ về các kênh số từ 300 đến hàng nghìn lượt mỗi ngày.
+
+Vị trí quyết định mua hàng: Chủ doanh nghiệp/CEO (người chịu trách nhiệm tối ưu chi phí và tăng trưởng doanh thu), Giám đốc vận hành - COO (người quản lý hiệu suất đội ngũ CSKH), và Trưởng phòng Marketing (người chịu trách nhiệm chuyển đổi leads từ các chiến dịch quảng cáo).
+
+Mục tiêu kinh doanh: Tối ưu hóa chi phí vận hành (OPEX), gia tăng tỷ lệ chuyển đổi (conversion rate) từ khách hàng tiềm năng, và loại bỏ tình trạng rớt đơn hàng do phản hồi chậm trễ.
+
+Danh sách 4 Pain Points chí mạng:
+
+1. Mất khách hàng vào tay đối thủ do phản hồi chậm ngoài giờ hành chính (Tỷ lệ rớt đơn cao):
+
+Thực trạng: Khách hàng hiện đại có xu hướng tìm kiếm thông tin và mua sắm vào buổi tối hoặc cuối tuần. Khi đội ngũ CSKH nghỉ ngơi, việc không có nhân sự trực page khiến khách hàng phải chờ đợi quá lâu, dẫn đến việc họ nguội lạnh nhu cầu hoặc chuyển ngay sang mua của đối thủ cạnh tranh.
+
+Giải pháp AI Chatbot: Tự động hóa CSKH 24/7, phản hồi tức thì chỉ trong vòng 1-2 giây ở mọi khung giờ, giữ chân khách hàng ngay tại "điểm vàng" có ý định mua sắm cao nhất.
+
+2. Bỏ sót khách hàng tiềm năng và sai sót dữ liệu do quản lý rời rạc đa kênh:
+
+Thực trạng: Doanh nghiệp phân bổ ngân sách chạy quảng cáo trên nhiều nền tảng (Website, Facebook, Zalo). Nhân viên CSKH phải túc trực nhiều tab trình duyệt, dễ dẫn đến tình trạng trôi tin nhắn, trùng lặp thông tin hoặc không đồng bộ được dữ liệu khách hàng về hệ thống trung tâm.
+
+Giải pháp AI Chatbot: Tích hợp đa kênh đồng bộ (Website, Zalo, Facebook, CRM) trên một giao diện duy nhất, tự động lưu trữ và đồng bộ hóa toàn bộ lịch sử trò chuyện của khách hàng.
+
+3. Chi phí nhân sự trực page phình to nhưng hiệu suất thấp do câu hỏi lặp lại:
+
+Thực trạng: Doanh nghiệp phải gồng gánh chi phí lớn để duy trì đội ngũ trực chat nhiều ca kíp. Tuy nhiên, 80% thời gian của nhân viên bị tiêu tốn cho các câu hỏi mang tính chất lặp đi lặp lại (giá sản phẩm, phí ship, thời gian giao hàng), gây lãng phí nguồn lực nhân sự chất lượng cao.
+
+Giải pháp AI Chatbot: Nhờ khả năng thấu hiểu ngữ cảnh tiếng Việt tự nhiên, AI tự động giải quyết đến 80% các thắc mắc thường gặp, đồng thời tự động phân loại và lọc ra các khách hàng tiềm năng nóng để chuyển giao cho nhân sự người thật chốt đơn, giúp tối ưu hóa biên lợi nhuận.
+
+4. Thiếu hụt dữ liệu đo lường hiệu quả chuyển đổi và tối ưu ROI quảng cáo:
+
+Thực trạng: Ban quản lý khó có thể kiểm soát chính xác hiệu suất làm việc của từng nhân viên CSKH hoặc đo lường được tỷ lệ chuyển đổi thực tế từ các chiến dịch Marketing đổ về, dẫn đến việc "đốt tiền" chạy ads nhưng không nắm được điểm nghẽn doanh thu.
+
+Giải pháp AI Chatbot: Tự động phân loại khách hàng tiềm năng và cung cấp hệ thống báo cáo phân tích dữ liệu thời gian thực (real-time analytics), giúp nhà quản lý dễ dàng đánh giá hiệu quả chiến dịch và tối ưu hóa ROI chính xác.]
 """
 
 Hãy đóng vai một Biên tập viên Nội dung (Content Editor) cấp cao, thiết lập dàn ý chi tiết (Outline) cho một bài viết PR chuyên sâu có độ dài từ **1.200 - 1.500 từ** đăng trên các báo kinh tế/công nghệ uy tín.
@@ -68,8 +100,18 @@ Plaintext
 Hãy đóng vai một Chuyên gia Viết bài PR Công nghệ (Tech PR Copywriter). Dựa trên dữ liệu nghiên cứu ở [Bước 1] và khung dàn ý chi tiết ở [Bước 2] dưới đây, hãy viết hoàn chỉnh bài báo PR chuyên sâu.
 
 Dữ liệu đầu vào:
-- Bộ từ khóa & Tone of Voice: [DÁN MỤC 3 VÀ 4 CỦA PROMPT 1]
-- Dàn ý chi tiết đã duyệt: [DÁN TOÀN BỘ KẾT QUẢ CỦA PROMPT 2]
+- Bộ từ khóa & Tone of Voice: [Từ khóa chính: giải pháp AI Chatbot cho doanh nghiệp
+
+4 Từ khóa phụ:
+
+phần mềm chăm sóc khách hàng tự động 24/7
+
+chatbot tích hợp đa kênh CRM
+
+AI Chatbot hiểu tiếng Việt tự nhiên
+
+phần mềm tự động chốt đơn và phân loại khách hàng]
+- Dàn ý chi tiết đã duyệt: []
 
 Các ràng buộc kỹ thuật bắt buộc tuân thủ:
 1. **Độ dài và chiều sâu:** Triển khai đầy đủ từng luận điểm đã vạch ra trong dàn ý. Tuyệt đối không tóm tắt, không viết lướt qua. Tổng độ dài bài viết phải đạt từ 1.200 đến 1.500 từ.
