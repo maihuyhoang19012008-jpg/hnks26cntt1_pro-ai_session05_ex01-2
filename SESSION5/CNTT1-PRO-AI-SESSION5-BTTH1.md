@@ -2,7 +2,7 @@
 
 # Kế hoạch Tài chính Cá nhân (Chain-of-Thought) 
 ## Phần 1: Nhật ký suy luận logic (Reasoning Steps) 
-*Hãy suy nghĩ từng bước một và tính toán chi tiết trước khi đưa ra quyết định.* 
+
 **Bước 1: Tính toán tổng thu nhập khả dụng sau khi trừ thuế và chi phí cố định bắt buộc.**
 * Giả định thu nhập trung bình hàng tháng từ việc làm part-time là: **5.500.000 VNĐ**. (mức trung bình ) 
 * Chi phí cố định bắt buộc hàng tháng (tiền phòng trọ, điện nước, internet): **1.800.000 VNĐ**. (trung bình )
@@ -26,4 +26,5 @@
  | **Tổng cộng phân bổ** | **4.500.000** | **80.0%** | Đảm bảo cân đối thu chi chính xác tuyệt đối |
 
 **chi phí học tập** được cung cấp bởi gia đình khoảng 3.000.000 VND 
-chi phí thể thao sức khỏe  (gym, bóng đá 1.000.000)
+
+- chi phí thể thao sức khỏe  (gym, bóng đá 1.000.000)
